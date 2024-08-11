@@ -15,13 +15,13 @@
         </div>
         <ul :class="menuClass"
           class="absolute z-10 top-20 px-10 text-center md:opacity-100 md:static md:p-0 left-0 w-full md:flex justify-between md:space-x-4 md:w-1/4 items-center text-2xl font-serif font-medium transition-all duration-500 ease-in">
-          <li class="md:my-0 my-10">
+          <li class="md:my-0 my-10 border-b md:border-b-0">
             <a href="#" class="hover:text-gray-600 transition duration-500 ease-in ">About</a>
           </li>
-          <li class="md:my-0 my-10">
+          <li class="md:my-0 my-10 border-b md:border-b-0">
             <a href="#" class="hover:text-gray-600 transition duration-500 ease-in ">Services</a>
           </li>
-          <li class=" md:my-0 my-10">
+          <li class=" md:my-0 my-10 border-b md:border-b-0">
             <a href="#" class="hover:text-gray-600 transition duration-500 ease-in ">Contact</a>
           </li>
         </ul>
